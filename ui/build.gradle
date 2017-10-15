@@ -1,5 +1,5 @@
 plugins {
-    id "com.moowork.node" version "1.1.1"
+    id "com.moowork.node" version "1.2.0"
 }
 
 apply plugin: 'base'
@@ -13,20 +13,16 @@ node {
 }
 
 task bundle(type: YarnTask) {
-    inputs.dir(new File('assets'))
+    inputs.file(new File('app.css'))
+    inputs.file(new File('index.html'))
     inputs.dir(new File('src'))
-    outputs.dir(new File('dist'))
-    args = ['run', 'bundle']
+    outputs.file(new File('bundle.js'))
+    args = ['run', 'webpack', 'bundle.js']
 }
 
 task start(type: YarnTask) {
     args = ['start']
 }
 
-task test(type: YarnTask) {
-    args = ['test']
-}
-
-check.dependsOn(test)
 bundle.dependsOn(yarn_install)
 assemble.dependsOn(bundle)
