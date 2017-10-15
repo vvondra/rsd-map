@@ -36,7 +36,7 @@ const config = {
     ],
     proxy: {
       '/api': {
-        target: 'http://localhost:8080',
+        target: 'http://localhost:8080', // by convention the Spring Boot API
         secure: false
       }
     }
@@ -46,7 +46,7 @@ const config = {
 
   module: {
     rules: [{
-      // Compile ES2015 using bable
+      // Compile ES2015 using Babel
       test: /\.js$/,
       include: [resolve('.')],
       exclude: [/node_modules/],
