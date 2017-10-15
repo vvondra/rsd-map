@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.sidebar {
+  position: absolute;
+  right: 0;
+  width: 400px;
+  top: 0;
+}
+
+.panel {
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  padding: 12px 24px;
+  margin: 20px;
+  line-height: 2;
+  color: #6b6b76;
+  outline: none;
+}
+
+.control-panel {
+  font-size: 16px;
+}
+
+.detail-panel {
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input {
+  margin-left: 20px;
+  width: 160px;
+}
+
+.tooltip {
+  position: absolute;
+  margin: 8px;
+  padding: 2px 8px 8px 8px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  max-width: 300px;
+  font-size: 12px;
+  z-index: 9;
+  pointer-events: none;
+  line-height: 1.6;
+}
+
+h2 {
+  font-size: 14px;
+}
+
+.Select-control {
+  margin-bottom: 8px;
+}

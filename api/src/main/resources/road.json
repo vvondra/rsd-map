@@ -1,0 +1,1081 @@
+[
+  {
+    "_id": "54f45de0fd897bbd1f96df97",
+    "name": "I/11",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f0806ef5349e174f3f5fb0"
+    ],
+    "gMarker": {
+      "lat": 49.64646647517066,
+      "lng": 18.70511054818053
+    }
+  },
+  {
+    "_id": "54f584b02e0cff6c37d0bea6",
+    "name": "I/68",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f0806ef5349e174f3f5fb0"
+    ],
+    "gMarker": {
+      "lat": 49.68506783136213,
+      "lng": 18.56875598430634
+    }
+  },
+  {
+    "_id": "54f5a1745bdfc06a37358eff",
+    "name": "I/37",
+    "roadType": "firstClassWay",
+    "__v": 1,
+    "deleted": false,
+    "regions": [
+      "54f07ed2bdb19c0d4f6e3e3b",
+      "54f07ec0bdb19c0d4f6e3e3a",
+      "54f07ff5bdb19c0d4f6e3e3c"
+    ],
+    "gMarker": {
+      "lat": 49.68273545366894,
+      "lng": 15.867294073104858
+    }
+  },
+  {
+    "_id": "54f5b3b02e0cff6c37d0bea7",
+    "name": "I/57",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f0806ef5349e174f3f5fb0"
+    ],
+    "gMarker": {
+      "lat": 50.01832895590886,
+      "lng": 17.77513861656189
+    }
+  },
+  {
+    "_id": "54c0bd5871f32cad1a89217c",
+    "name": "D1",
+    "roadType": "highway",
+    "__v": 4,
+    "deleted": false,
+    "regions": [
+      "54ec8062d57979be5723827a",
+      "54f07df4bdb19c0d4f6e3e35",
+      "54f07ff5bdb19c0d4f6e3e3c",
+      "54f0801abdb19c0d4f6e3e3d",
+      "54f0806ef5349e174f3f5fb0",
+      "54f0802dbdb19c0d4f6e3e3e"
+    ],
+    "gMarker": {
+      "lng": 16.592009066662285,
+      "lat": 49.16077627374386
+    }
+  },
+  {
+    "_id": "54c27df8a7783ccd098d87dd",
+    "roadType": "highway",
+    "name": "D5",
+    "__v": 1,
+    "deleted": false,
+    "regions": [
+      "54ec8062d57979be5723827a",
+      "54f07df4bdb19c0d4f6e3e35",
+      "54f07e5cbdb19c0d4f6e3e36"
+    ],
+    "gMarker": {
+      "lat": 49.75304629578445,
+      "lng": 13.581587077060249
+    }
+  },
+  {
+    "_id": "550febd1556306945ef5d7fb",
+    "name": "I/9",
+    "roadType": "firstClassWay",
+    "__v": 1,
+    "deleted": false,
+    "regions": [
+      "54f07df4bdb19c0d4f6e3e35",
+      "54f07eabbdb19c0d4f6e3e39"
+    ],
+    "gMarker": {
+      "lat": 50.52136717714066,
+      "lng": 14.51080262704636
+    }
+  },
+  {
+    "_id": "550febf9556306945ef5d7fc",
+    "name": "I/16",
+    "roadType": "firstClassWay",
+    "__v": 1,
+    "deleted": false,
+    "regions": [
+      "54f07df4bdb19c0d4f6e3e35",
+      "54f07ec0bdb19c0d4f6e3e3a",
+      "54f07eabbdb19c0d4f6e3e39"
+    ],
+    "gMarker": {
+      "lat": 50.462152642713185,
+      "lng": 15.122330174781382
+    }
+  },
+  {
+    "_id": "5511272c57e59fea63198d5a",
+    "name": "I/49",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f08041bdb19c0d4f6e3e3f"
+    ],
+    "gMarker": {
+      "lat": 49.212622263031214,
+      "lng": 17.778226732989424
+    }
+  },
+  {
+    "_id": "5511c05ac477759c22527fe2",
+    "name": "D11",
+    "roadType": "highway",
+    "__v": 1,
+    "deleted": false,
+    "regions": [
+      "54ec8062d57979be5723827a",
+      "54f07df4bdb19c0d4f6e3e35",
+      "54f07ec0bdb19c0d4f6e3e3a",
+      "54f07ed2bdb19c0d4f6e3e3b"
+    ],
+    "gMarker": {
+      "lat": 50.1191737188579,
+      "lng": 15.262443422398064
+    }
+  },
+  {
+    "_id": "5511c465e9146f9222da88e9",
+    "name": "D3",
+    "roadType": "highway",
+    "__v": 1,
+    "deleted": false,
+    "regions": [
+      "54f07e1af5349e174f3f5faf"
+    ],
+    "gMarker": {
+      "lat": 49.353704002305975,
+      "lng": 14.725706579047255
+    }
+  },
+  {
+    "_id": "5511c68bc477759c22527fe7",
+    "name": "I/19",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07ff5bdb19c0d4f6e3e3c",
+      "54f0801abdb19c0d4f6e3e3d"
+    ],
+    "gMarker": {
+      "lat": 49.54716650584769,
+      "lng": 16.117948293576774
+    }
+  },
+  {
+    "_id": "5511caf9c477759c22527fe8",
+    "name": "I/35",
+    "roadType": "firstClassWay",
+    "__v": 1,
+    "deleted": false,
+    "regions": [
+      "54f07eabbdb19c0d4f6e3e39",
+      "54f07ec0bdb19c0d4f6e3e3a",
+      "54f07ed2bdb19c0d4f6e3e3b",
+      "54f0802dbdb19c0d4f6e3e3e"
+    ],
+    "gMarker": {
+      "lat": 49.96220189826301,
+      "lng": 16.144579052051995
+    }
+  },
+  {
+    "_id": "551d3a478a2008f06debc480",
+    "name": "I/50",
+    "roadType": "firstClassWay",
+    "__v": 1,
+    "deleted": false,
+    "regions": [
+      "54f0801abdb19c0d4f6e3e3d",
+      "54f08041bdb19c0d4f6e3e3f"
+    ],
+    "gMarker": {
+      "lat": 49.051991108870986,
+      "lng": 17.454246286069974
+    }
+  },
+  {
+    "_id": "55318510bfb8cd435f816637",
+    "name": "I/34",
+    "roadType": "firstClassWay",
+    "__v": 1,
+    "deleted": false,
+    "regions": [
+      "54f07ff5bdb19c0d4f6e3e3c",
+      "54f07e1af5349e174f3f5faf",
+      "54f07ed2bdb19c0d4f6e3e3b"
+    ],
+    "gMarker": {
+      "lat": 49.56468654896491,
+      "lng": 15.470625759917311
+    }
+  },
+  {
+    "_id": "553420b1bfb8cd435f81663e",
+    "name": "D8",
+    "roadType": "highway",
+    "__v": 1,
+    "deleted": false,
+    "regions": [
+      "54ec8062d57979be5723827a",
+      "54f07df4bdb19c0d4f6e3e35",
+      "54f07e85bdb19c0d4f6e3e38"
+    ],
+    "gMarker": {
+      "lat": 50.422468259422736,
+      "lng": 14.205701350292657
+    }
+  },
+  {
+    "_id": "553685ba1447226548f734ee",
+    "name": "I/20",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07e5cbdb19c0d4f6e3e36",
+      "54f07e1af5349e174f3f5faf",
+      "54f07e71bdb19c0d4f6e3e37"
+    ],
+    "gMarker": {
+      "lat": 49.5212128045061,
+      "lng": 13.530303243314847
+    }
+  },
+  {
+    "_id": "553687226d710d6b480c5ea9",
+    "name": "I/27",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07e5cbdb19c0d4f6e3e36",
+      "54f07df4bdb19c0d4f6e3e35",
+      "54f07e85bdb19c0d4f6e3e38"
+    ],
+    "gMarker": {
+      "lat": 49.94289580976275,
+      "lng": 13.388189078250434
+    }
+  },
+  {
+    "_id": "553688b71447226548f734ef",
+    "name": "I/38",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07eabbdb19c0d4f6e3e39",
+      "54f07df4bdb19c0d4f6e3e35",
+      "54f07ff5bdb19c0d4f6e3e3c",
+      "54f0801abdb19c0d4f6e3e3d"
+    ],
+    "gMarker": {
+      "lat": 49.54705721674349,
+      "lng": 15.58918833557982
+    }
+  },
+  {
+    "_id": "55368ac8c488bb6348784dbe",
+    "name": "I/44",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f0802dbdb19c0d4f6e3e3e"
+    ],
+    "gMarker": {
+      "lat": 50.10032395007541,
+      "lng": 17.10995793429902
+    }
+  },
+  {
+    "_id": "55368bae1e8de56748349b21",
+    "name": "I/53",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f0801abdb19c0d4f6e3e3d"
+    ],
+    "gMarker": {
+      "lat": 48.906833440624105,
+      "lng": 16.308161615452264
+    }
+  },
+  {
+    "_id": "553cf749c488bb6348784e03",
+    "name": "I/2",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07df4bdb19c0d4f6e3e35",
+      "54f07ed2bdb19c0d4f6e3e3b",
+      "54ec8062d57979be5723827a"
+    ],
+    "gMarker": {
+      "lat": 49.94845848644964,
+      "lng": 15.229876040539239
+    }
+  },
+  {
+    "_id": "553cf7e06d710d6b480c5f05",
+    "name": "I/3",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07df4bdb19c0d4f6e3e35",
+      "54f07e1af5349e174f3f5faf"
+    ],
+    "gMarker": {
+      "lat": 49.31846450033305,
+      "lng": 14.721335470649137
+    }
+  },
+  {
+    "_id": "553cf8961447226548f73562",
+    "name": "I/4",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07df4bdb19c0d4f6e3e35",
+      "54f07e1af5349e174f3f5faf",
+      "54ec8062d57979be5723827a"
+    ],
+    "gMarker": {
+      "lat": 49.49935027965388,
+      "lng": 14.07342016675102
+    }
+  },
+  {
+    "_id": "553cf8fc1e8de56748349b72",
+    "name": "I/12",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07df4bdb19c0d4f6e3e35",
+      "54ec8062d57979be5723827a"
+    ],
+    "gMarker": {
+      "lat": 50.06048045216048,
+      "lng": 14.87918794133293
+    }
+  },
+  {
+    "_id": "553cfa746d710d6b480c5f06",
+    "name": "I/13",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07eabbdb19c0d4f6e3e39",
+      "54f07e85bdb19c0d4f6e3e38",
+      "54f07e71bdb19c0d4f6e3e37"
+    ],
+    "gMarker": {
+      "lat": 50.59198693983927,
+      "lng": 13.800623418646865
+    }
+  },
+  {
+    "_id": "553cfb971e8de56748349b73",
+    "name": "I/14",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07eabbdb19c0d4f6e3e39",
+      "54f07ec0bdb19c0d4f6e3e3a",
+      "54f07ed2bdb19c0d4f6e3e3b"
+    ],
+    "gMarker": {
+      "lat": 50.552025738232594,
+      "lng": 15.972359776933445
+    }
+  },
+  {
+    "_id": "553d20381e8de56748349b78",
+    "name": "I/15",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07e85bdb19c0d4f6e3e38",
+      "54f07eabbdb19c0d4f6e3e39"
+    ],
+    "gMarker": {
+      "lat": 50.513292124021206,
+      "lng": 14.138692615670152
+    }
+  },
+  {
+    "_id": "553d207f1e8de56748349b79",
+    "name": "I/18",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07df4bdb19c0d4f6e3e35"
+    ],
+    "gMarker": {
+      "lat": 49.67978025365828,
+      "lng": 14.229780435125576
+    }
+  },
+  {
+    "_id": "553d21b81447226548f7356c",
+    "name": "I/21",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07e71bdb19c0d4f6e3e37",
+      "54f07e5cbdb19c0d4f6e3e36"
+    ],
+    "gMarker": {
+      "lat": 49.94968837438012,
+      "lng": 12.664949297850399
+    }
+  },
+  {
+    "_id": "553d220a1447226548f7356d",
+    "name": "I/22",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07e1af5349e174f3f5faf",
+      "54f07e5cbdb19c0d4f6e3e36"
+    ],
+    "gMarker": {
+      "lat": 49.333414622717086,
+      "lng": 13.556022048433078
+    }
+  },
+  {
+    "_id": "553d2b9a1447226548f7357a",
+    "name": "I/26",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07e5cbdb19c0d4f6e3e36"
+    ],
+    "gMarker": {
+      "lat": 49.59335663181943,
+      "lng": 13.098746537725674
+    }
+  },
+  {
+    "_id": "553d36231447226548f7357b",
+    "name": "I/31",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07ec0bdb19c0d4f6e3e3a"
+    ],
+    "gMarker": {
+      "lat": 50.20252197057807,
+      "lng": 15.824171304266201
+    }
+  },
+  {
+    "_id": "553d36b91447226548f7357c",
+    "name": "I/32",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07ec0bdb19c0d4f6e3e3a",
+      "54f07df4bdb19c0d4f6e3e35"
+    ],
+    "gMarker": {
+      "lat": 50.29045074138635,
+      "lng": 15.25413930459763
+    }
+  },
+  {
+    "_id": "553d37861447226548f7357d",
+    "name": "I/33",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07ec0bdb19c0d4f6e3e3a"
+    ],
+    "gMarker": {
+      "lat": 50.38078402345737,
+      "lng": 15.956749319157097
+    }
+  },
+  {
+    "_id": "553e70e56d710d6b480c5f29",
+    "name": "I/36",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07ed2bdb19c0d4f6e3e3b",
+      "54f07ec0bdb19c0d4f6e3e3a"
+    ],
+    "gMarker": {
+      "lat": 50.05846128509664,
+      "lng": 15.847127437373274
+    }
+  },
+  {
+    "_id": "553e716fc488bb6348784e13",
+    "name": "I/39",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07e1af5349e174f3f5faf"
+    ],
+    "gMarker": {
+      "lat": 48.73802978775753,
+      "lng": 14.110531210681074
+    }
+  },
+  {
+    "_id": "553e72606d710d6b480c5f2a",
+    "name": "I/42",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f0801abdb19c0d4f6e3e3d"
+    ],
+    "gMarker": {
+      "lat": 49.20118982804228,
+      "lng": 16.567820907075657
+    }
+  },
+  {
+    "_id": "553e73431e8de56748349b87",
+    "name": "I/43",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07ed2bdb19c0d4f6e3e3b",
+      "54f0802dbdb19c0d4f6e3e3e",
+      "54f0801abdb19c0d4f6e3e3d"
+    ],
+    "gMarker": {
+      "lat": 49.689565672363734,
+      "lng": 16.49814784504997
+    }
+  },
+  {
+    "_id": "553e745e6d710d6b480c5f2b",
+    "name": "I/46",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f0802dbdb19c0d4f6e3e3e",
+      "54f0806ef5349e174f3f5fb0"
+    ],
+    "gMarker": {
+      "lat": 49.87071687497505,
+      "lng": 17.59953618005966
+    }
+  },
+  {
+    "_id": "553e753b1e8de56748349b88",
+    "name": "I/51",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f0801abdb19c0d4f6e3e3d"
+    ],
+    "gMarker": {
+      "lat": 48.851295992431446,
+      "lng": 17.12207257791306
+    }
+  },
+  {
+    "_id": "553e7690217cd169482759d2",
+    "name": "I/55",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f0801abdb19c0d4f6e3e3d",
+      "54f08041bdb19c0d4f6e3e3f",
+      "54f0802dbdb19c0d4f6e3e3e"
+    ],
+    "gMarker": {
+      "lat": 49.06948707427125,
+      "lng": 17.466554047423415
+    }
+  },
+  {
+    "_id": "553e773e1447226548f7357e",
+    "name": "I/56",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f0806ef5349e174f3f5fb0",
+      "54f08041bdb19c0d4f6e3e3f"
+    ],
+    "gMarker": {
+      "lat": 49.674087325696526,
+      "lng": 18.330255746404873
+    }
+  },
+  {
+    "_id": "553e77df6d710d6b480c5f2c",
+    "name": "I/58",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f0806ef5349e174f3f5fb0",
+      "54f08041bdb19c0d4f6e3e3f"
+    ],
+    "gMarker": {
+      "lat": 49.63766459727478,
+      "lng": 18.129991292516934
+    }
+  },
+  {
+    "_id": "553e78bd217cd169482759d3",
+    "name": "I/62",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07e85bdb19c0d4f6e3e38"
+    ],
+    "gMarker": {
+      "lat": 50.74657527936933,
+      "lng": 14.181497991303331
+    }
+  },
+  {
+    "_id": "553e79301447226548f7357f",
+    "name": "I/64",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07e71bdb19c0d4f6e3e37"
+    ],
+    "gMarker": {
+      "lat": 50.171848218628035,
+      "lng": 12.259249985436327
+    }
+  },
+  {
+    "_id": "553e79d41447226548f73580",
+    "name": "I/67",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f0806ef5349e174f3f5fb0"
+    ],
+    "gMarker": {
+      "lat": 49.86270081441827,
+      "lng": 18.523033261244564
+    }
+  },
+  {
+    "_id": "553e8f23217cd169482759d7",
+    "name": "I/45",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f0806ef5349e174f3f5fb0",
+      "54f0802dbdb19c0d4f6e3e3e"
+    ],
+    "gMarker": {
+      "lat": 49.97522587209094,
+      "lng": 17.464267015348014
+    }
+  },
+  {
+    "_id": "55a293bc9b57278c08458993",
+    "name": "I/28",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07e85bdb19c0d4f6e3e38"
+    ],
+    "gMarker": {
+      "lat": 50.414889735493716,
+      "lng": 13.785996437072754
+    }
+  },
+  {
+    "_id": "55a295079b57278c08458995",
+    "name": "I/30",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07e85bdb19c0d4f6e3e38"
+    ],
+    "gMarker": {
+      "lat": 50.59655286614538,
+      "lng": 14.050354958235403
+    }
+  },
+  {
+    "_id": "55a386799b57278c0845899c",
+    "name": "I/47",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f0802dbdb19c0d4f6e3e3e",
+      "54f0806ef5349e174f3f5fb0"
+    ],
+    "gMarker": {
+      "lat": 49.640677937894125,
+      "lng": 17.835445409291424
+    }
+  },
+  {
+    "_id": "55a38bfc2656a2a208e4b6f5",
+    "name": "I/52",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f0801abdb19c0d4f6e3e3d"
+    ],
+    "gMarker": {
+      "lat": 48.96601921046406,
+      "lng": 16.521549230092205
+    }
+  },
+  {
+    "_id": "55a392669b57278c0845899e",
+    "name": "I/60",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f0802dbdb19c0d4f6e3e3e"
+    ],
+    "gMarker": {
+      "lat": 50.302991998498854,
+      "lng": 17.095971108792583
+    }
+  },
+  {
+    "_id": "55a5077532cc32f556d96842",
+    "name": "D2",
+    "roadType": "highway",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f0801abdb19c0d4f6e3e3d"
+    ],
+    "gMarker": {
+      "lat": 48.93570864654235,
+      "lng": 16.744580270169536
+    }
+  },
+  {
+    "_id": "55ae9775b8d6b8961fba519b",
+    "name": "I/10",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07eabbdb19c0d4f6e3e39"
+    ],
+    "gMarker": {
+      "lat": 50.6920808365594,
+      "lng": 15.315302833914757
+    }
+  },
+  {
+    "_id": "55ae9e977d8717941f098f98",
+    "name": "I/17",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07ed2bdb19c0d4f6e3e3b"
+    ],
+    "gMarker": {
+      "lat": 49.95359460513504,
+      "lng": 15.782071575522423
+    }
+  },
+  {
+    "_id": "55aeaaaa7fb3bf801f12693d",
+    "name": "I/23",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07e1af5349e174f3f5faf",
+      "54f07ff5bdb19c0d4f6e3e3c"
+    ],
+    "gMarker": {
+      "lat": 49.17199639443448,
+      "lng": 15.164584144949913
+    }
+  },
+  {
+    "_id": "55b1351f41e9e6871f240ba6",
+    "name": "I/29",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07e1af5349e174f3f5faf"
+    ],
+    "gMarker": {
+      "lat": 49.367144096422244,
+      "lng": 14.333847016096115
+    }
+  },
+  {
+    "_id": "55b143ad41e9e6871f240bad",
+    "name": "I/65",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07eabbdb19c0d4f6e3e39"
+    ],
+    "gMarker": {
+      "lat": 50.69833327986365,
+      "lng": 15.153658837080002
+    }
+  },
+  {
+    "_id": "56910038e114507809bf3078",
+    "name": "D4",
+    "roadType": "highway",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07e1af5349e174f3f5faf",
+      "54f07df4bdb19c0d4f6e3e35"
+    ],
+    "gMarker": {
+      "lat": 49.51977593957038,
+      "lng": 14.072621315717697
+    }
+  },
+  {
+    "_id": "56910449e114507809bf3080",
+    "name": "D6",
+    "roadType": "highway",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54ec8062d57979be5723827a",
+      "54f07e85bdb19c0d4f6e3e38",
+      "54f07e71bdb19c0d4f6e3e37",
+      "54f07df4bdb19c0d4f6e3e35"
+    ],
+    "gMarker": {
+      "lat": 50.12002777068806,
+      "lng": 13.366828858852386
+    }
+  },
+  {
+    "_id": "5691077ae114507809bf308c",
+    "name": "D7",
+    "roadType": "highway",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54ec8062d57979be5723827a",
+      "54f07e85bdb19c0d4f6e3e38",
+      "54f07df4bdb19c0d4f6e3e35"
+    ],
+    "gMarker": {
+      "lat": 50.33801063280343,
+      "lng": 13.831773698329926
+    }
+  },
+  {
+    "_id": "56910bd7e114507809bf3096",
+    "name": "D35",
+    "roadType": "highway",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f07eabbdb19c0d4f6e3e39",
+      "54f0802dbdb19c0d4f6e3e3e",
+      "54f07ec0bdb19c0d4f6e3e3a",
+      "54f07ed2bdb19c0d4f6e3e3b"
+    ],
+    "gMarker": {
+      "lat": 50.01011092303823,
+      "lng": 16.082511842250824
+    }
+  },
+  {
+    "_id": "569126f5e114507809bf30a6",
+    "name": "D46",
+    "roadType": "highway",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f0801abdb19c0d4f6e3e3d",
+      "54f0802dbdb19c0d4f6e3e3e"
+    ],
+    "gMarker": {
+      "lat": 49.42900747111678,
+      "lng": 17.11205095052719
+    }
+  },
+  {
+    "_id": "569128c7e114507809bf30ad",
+    "name": "D48",
+    "roadType": "highway",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f0802dbdb19c0d4f6e3e3e",
+      "54f0806ef5349e174f3f5fb0"
+    ],
+    "gMarker": {
+      "lat": 49.6478475083335,
+      "lng": 18.192989230155945
+    }
+  },
+  {
+    "_id": "56912a8de114507809bf30b2",
+    "name": "D55",
+    "roadType": "highway",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f0801abdb19c0d4f6e3e3d",
+      "54f0802dbdb19c0d4f6e3e3e",
+      "54f08041bdb19c0d4f6e3e3f"
+    ],
+    "gMarker": {
+      "lat": 49.30072544779625,
+      "lng": 17.490478456020355
+    }
+  },
+  {
+    "_id": "56912be8e114507809bf30b7",
+    "name": "D56",
+    "roadType": "highway",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f0806ef5349e174f3f5fb0"
+    ],
+    "gMarker": {
+      "lat": 49.73479856952256,
+      "lng": 18.282081484794617
+    }
+  },
+  {
+    "_id": "569156c8e114507809bf30dc",
+    "name": "D49",
+    "roadType": "highway",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f08041bdb19c0d4f6e3e3f"
+    ],
+    "gMarker": {
+      "lat": 49.2122147082126,
+      "lng": 17.860652804374695
+    }
+  },
+  {
+    "_id": "56937372e114507809bf30e4",
+    "name": "D0",
+    "roadType": "highway",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54ec8062d57979be5723827a"
+    ],
+    "gMarker": {
+      "lat": 50.078294547389426,
+      "lng": 14.434318542480469
+    }
+  },
+  {
+    "_id": "569410f7e114507809bf30e8",
+    "name": "D10",
+    "roadType": "highway",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54ec8062d57979be5723827a",
+      "54f07eabbdb19c0d4f6e3e39",
+      "54f07df4bdb19c0d4f6e3e35"
+    ],
+    "gMarker": {
+      "lat": 50.378094176069084,
+      "lng": 14.889293611049652
+    }
+  },
+  {
+    "_id": "569414a7e114507809bf30e9",
+    "name": "D52",
+    "roadType": "highway",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f0801abdb19c0d4f6e3e3d"
+    ],
+    "gMarker": {
+      "lat": 49.0577825365518,
+      "lng": 16.546241641044617
+    }
+  },
+  {
+    "_id": "585aad07de555cc40fe51d16",
+    "name": "I/41",
+    "roadType": "firstClassWay",
+    "__v": 0,
+    "deleted": false,
+    "regions": [
+      "54f0801abdb19c0d4f6e3e3d"
+    ],
+    "gMarker": {
+      "lat": 49.17339925679931,
+      "lng": 16.623502671718597
+    }
+  }
+]

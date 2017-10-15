@@ -1,0 +1,156 @@
+[
+  {
+    "_id": "54ec8062d57979be5723827a",
+    "name": "Hlavní město Praha",
+    "shortcut": "PHA",
+    "__v": 0,
+    "deleted": false,
+    "gMarker": {
+      "lat": 50.08534439753888,
+      "lng": 14.42882537841797
+    }
+  },
+  {
+    "_id": "54f07df4bdb19c0d4f6e3e35",
+    "name": "Středočeský kraj",
+    "shortcut": "STČ",
+    "__v": 0,
+    "deleted": false,
+    "gMarker": {
+      "lat": 50.07124366044474,
+      "lng": 14.43981170654297
+    }
+  },
+  {
+    "_id": "54f07e1af5349e174f3f5faf",
+    "name": "Jihočeský kraj",
+    "shortcut": "JHČ",
+    "__v": 0,
+    "deleted": false,
+    "gMarker": {
+      "lat": 48.97300592158682,
+      "lng": 14.48375701904297
+    }
+  },
+  {
+    "_id": "54f07e5cbdb19c0d4f6e3e36",
+    "name": "Plzeňský kraj",
+    "shortcut": "PLK",
+    "__v": 0,
+    "deleted": false,
+    "gMarker": {
+      "lat": 49.73868163928002,
+      "lng": 13.37413787841797
+    }
+  },
+  {
+    "_id": "54f07e71bdb19c0d4f6e3e37",
+    "name": "Karlovarský kraj",
+    "shortcut": "KVK",
+    "__v": 0,
+    "deleted": false,
+    "gMarker": {
+      "lat": 50.22612374437136,
+      "lng": 12.86876678466797
+    }
+  },
+  {
+    "_id": "54f07e85bdb19c0d4f6e3e38",
+    "name": "Ústecký kraj",
+    "shortcut": "ULK",
+    "__v": 0,
+    "deleted": false,
+    "gMarker": {
+      "lat": 50.65990836093937,
+      "lng": 14.05529022216797
+    }
+  },
+  {
+    "_id": "54f07eabbdb19c0d4f6e3e39",
+    "name": "Liberecký kraj",
+    "shortcut": "LBK",
+    "__v": 0,
+    "deleted": false,
+    "gMarker": {
+      "lat": 50.76425935711647,
+      "lng": 15.05504608154297
+    }
+  },
+  {
+    "_id": "54f07ec0bdb19c0d4f6e3e3a",
+    "name": "Královéhradecký kraj",
+    "shortcut": "HKK",
+    "__v": 0,
+    "deleted": false,
+    "gMarker": {
+      "lat": 50.21909462044748,
+      "lng": 15.83507537841797
+    }
+  },
+  {
+    "_id": "54f07ed2bdb19c0d4f6e3e3b",
+    "name": "Pardubický kraj",
+    "shortcut": "PAK",
+    "__v": 0,
+    "deleted": false,
+    "gMarker": {
+      "lat": 50.0359736721955,
+      "lng": 15.79113006591797
+    }
+  },
+  {
+    "_id": "54f07ff5bdb19c0d4f6e3e3c",
+    "name": "Kraj Vysočina",
+    "shortcut": "VYS",
+    "__v": 0,
+    "deleted": false,
+    "gMarker": {
+      "lat": 49.40382465788512,
+      "lng": 15.59337615966797
+    }
+  },
+  {
+    "_id": "54f0801abdb19c0d4f6e3e3d",
+    "name": "Jihomoravský kraj",
+    "shortcut": "JHM",
+    "__v": 0,
+    "deleted": false,
+    "gMarker": {
+      "lat": 49.19606400072379,
+      "lng": 16.61510467529297
+    }
+  },
+  {
+    "_id": "54f0802dbdb19c0d4f6e3e3e",
+    "name": "Olomoucký kraj",
+    "shortcut": "OLK",
+    "__v": 0,
+    "deleted": false,
+    "gMarker": {
+      "lat": 49.58934857766426,
+      "lng": 17.25231170654297
+    }
+  },
+  {
+    "_id": "54f08041bdb19c0d4f6e3e3f",
+    "name": "Zlínský kraj",
+    "shortcut": "ZLK",
+    "__v": 0,
+    "deleted": false,
+    "gMarker": {
+      "lat": 49.22477272279482,
+      "lng": 17.66979217529297
+    }
+  },
+  {
+    "_id": "54f0806ef5349e174f3f5fb0",
+    "name": "Moravskoslezský kraj",
+    "shortcut": "MSK",
+    "__v": 0,
+    "deleted": false,
+    "gMarker": {
+      "lat": 49.82380908513248,
+      "lng": 18.26305389404297
+    }
+  }
+]
