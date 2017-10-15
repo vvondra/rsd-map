@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController
 @RestController
 class DataController(val provider: DataProvider) {
 
-    @GetMapping("/")
+    @GetMapping("/api/projects")
     fun data(
         @RequestParam("region", required = false) region: List<String>?,
         @RequestParam("poiType", required = false) poiType: String?,
@@ -18,10 +18,10 @@ class DataController(val provider: DataProvider) {
         road
     ))
 
-    @GetMapping("/roads")
+    @GetMapping("/api/roads")
     fun roads() = provider.roads
 
-    @GetMapping("/regions")
+    @GetMapping("/api/regions")
     fun regions() = provider.regions
 
 }

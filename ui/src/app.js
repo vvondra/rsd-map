@@ -39,13 +39,13 @@ export default class App extends Component {
     window.addEventListener('resize', this._resize);
     this._resize();
 
-    requestJson('http://localhost:8080/regions', (error, response) => {
+    requestJson('/api/regions', (error, response) => {
       if (!error) {
         this.setState({ regions: response });
       }
     });
 
-    requestJson('http://localhost:8080/roads', (error, response) => {
+    requestJson('/api/roads', (error, response) => {
       if (!error) {
         this.setState({ roads: response.sort((a, b) => a.name > b.name) });
       }
@@ -69,7 +69,7 @@ export default class App extends Component {
   };
 
   _refresh = () => {
-    let url = 'http://localhost:8080/?';
+    let url = '/api/projects?';
     let params = [];
     this.state.region.forEach((region) => params.push('region=' + region))
     this.state.road.forEach((road) => params.push('road=' + road))

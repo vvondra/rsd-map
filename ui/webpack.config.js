@@ -30,9 +30,16 @@ const config = {
   },
 
   devServer: {
+    port: 9000,
     contentBase: [
       resolve(__dirname, 'dist'),
-    ]
+    ],
+    proxy: {
+      '/api': {
+        target: 'http://localhost:8080',
+        secure: false
+      }
+    }
   },
 
   devtool: 'source-map',
