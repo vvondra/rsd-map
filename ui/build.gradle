@@ -5,19 +5,17 @@ plugins {
 apply plugin: 'base'
 version '0.0.1'
 
-buildDir = 'dist'
-
 node {
     version = '8.1.4'
     download = true
 }
 
 task bundle(type: YarnTask) {
-    inputs.file(new File('app.css'))
-    inputs.file(new File('index.html'))
+    inputs.file(new File('dist/app.css'))
+    inputs.file(new File('dist/index.html'))
     inputs.dir(new File('src'))
-    outputs.file(new File('bundle.js'))
-    args = ['run', 'webpack', 'bundle.js']
+    outputs.file(new File('dist/bundle.js'))
+    args = ['run', 'webpack']
 }
 
 task start(type: YarnTask) {

@@ -24,9 +24,14 @@ const config = {
     app: resolve('./src/root.js')
   },
 
+  output: {
+    filename: 'bundle.js',
+    path: resolve(__dirname, 'dist')
+  },
+
   devServer: {
     contentBase: [
-      __dirname,
+      resolve(__dirname, 'dist'),
     ]
   },
 
