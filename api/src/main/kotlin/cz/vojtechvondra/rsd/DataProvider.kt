@@ -26,6 +26,9 @@ class DataProvider {
     val roads: List<Road> = DataMapper.jackson
         .readValue(DataProvider::class.java.classLoader.getResourceAsStream("road.json"))
 
+    val plans: FeatureCollection = DataMapper.jackson
+        .readValue(DataProvider::class.java.classLoader.getResourceAsStream("construction.json"))
+
     fun findData(region: List<String>, poiType: String?, road: String?): List<Project> {
         return data.stream()
             .filter { t -> t.poiType == "construction" }

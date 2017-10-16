@@ -25,6 +25,9 @@ class DataController(val provider: DataProvider) {
     @GetMapping("/api/regions")
     fun regions() = provider.regions
 
+    @GetMapping("/api/plans")
+    fun plans() = provider.plans
+
     @GetMapping("/api/projects/{id}")
     fun project(@PathVariable("id") id: String) = provider.getProject(id)
 
