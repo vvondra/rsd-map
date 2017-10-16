@@ -54,6 +54,7 @@ dependencies {
 	compile group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jdk8', version: '2.9.1'
 	compile group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jsr310', version: '2.9.1'
 	compile "de.grundid.opendatalab:geojson-jackson:1.8"
+	compile 'com.squareup.okhttp3:okhttp:3.9.0'
 	compileOnly('org.projectlombok:lombok')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }

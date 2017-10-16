@@ -1,6 +1,7 @@
 package cz.vojtechvondra.rsd
 
 import org.springframework.web.bind.annotation.GetMapping
+import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.RestController
 
@@ -23,5 +24,8 @@ class DataController(val provider: DataProvider) {
 
     @GetMapping("/api/regions")
     fun regions() = provider.regions
+
+    @GetMapping("/api/projects/{id}")
+    fun project(@PathVariable("id") id: String) = provider.getProject(id)
 
 }
