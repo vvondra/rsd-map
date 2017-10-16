@@ -35,7 +35,7 @@ export default class ControlPanel extends PureComponent {
         </div>
         <div key="road" className="input">
           <Select
-            placeholder="Silnice"
+            placeholder="Silnice..."
             name="form-field-name"
             value={settings.road}
             multi={true}
