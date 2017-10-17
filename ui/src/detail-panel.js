@@ -15,6 +15,7 @@ export default class ControlPanel extends PureComponent {
         <p>
           {stripHtml(description)}
         </p>
+        <button onClick={this.props.onSelectProject}>Zobrazit podrobnosti</button>
       </Container>
     );
   }

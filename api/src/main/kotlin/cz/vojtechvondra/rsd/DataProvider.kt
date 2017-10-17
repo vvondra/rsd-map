@@ -64,6 +64,7 @@ class DataProvider {
                 val feature = Feature()
                 feature.id = project._id
                 feature.geometry = Point(project.gMarker.lng, project.gMarker.lat)
+                feature.setProperty("id", project._id)
                 feature.setProperty("description", project.defaultDescription())
                 feature.setProperty("poiType", project.poiType)
                 feature.setProperty("roadName", project.road.name)
@@ -114,6 +115,8 @@ data class Project(
     val mapImage: String?,
     val attachments: MutableList<Attachment> = mutableListOf()
 ) {
+    @JsonProperty
     fun defaultTitle() = title[title.keys.first()]
+    @JsonProperty
     fun defaultDescription() = if (description.count() > 0) description[description.keys.first()] else ""
 }

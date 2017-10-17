@@ -4,12 +4,15 @@ import { render } from 'react-dom';
 import MapGL from 'react-map-gl';
 import ControlPanel from './control-panel';
 import DetailPanel from './detail-panel';
+import ProjectPanel from './project-panel';
 import Sidebar from './sidebar';
 
 import { dataLayer, defaultMapStyle } from './map-style.js';
 import { stripHtml, truncate } from './utils';
 import { fromJS } from 'immutable';
 import { json as requestJson } from 'd3-request';
+
+import './app.css';
 
 const MAPBOX_TOKEN = 'pk.eyJ1IjoidnZvbmRyYSIsImEiOiJjajQ3NTZtajQwMTJtMzNxcWR5YXA3eGsyIn0.upVtttpfFBwd5IlbnZkPkQ'; // Set your mapbox token here
 
@@ -24,9 +27,10 @@ export default class App extends Component {
     data: null,
     hoveredFeature: null,
     clickedFeature: null,
+    loadedFeature: null,
     viewport: {
-      latitude: 50.54065384622211,
-      longitude: 14.54048439860344,
+      latitude: 49.7437506,
+      longitude: 15.3386478,
       zoom: 7,
       bearing: 0,
       pitch: 0,
@@ -164,8 +168,16 @@ export default class App extends Component {
     const { features, srcEvent: { offsetX, offsetY } } = event;
     const clickedFeature = features && features.find(f => f.layer.id === 'data');
 
-    this.setState({ clickedFeature, x: offsetX, y: offsetY });
+    this.setState({ clickedFeature, x: offsetX, y: offsetY, loadedFeature: null });
   };
+
+  _loadFeature = id => {
+    requestJson('/api/projects/' + id, (error, response) => {
+      if (!error) {
+        this.setState({ loadedFeature: response });
+      }
+    });
+  }
 
   _renderTooltip() {
     const { hoveredFeature, x, y } = this.state;
@@ -183,7 +195,18 @@ export default class App extends Component {
     
     return clickedFeature && (
       <DetailPanel containerComponent={this.props.containerComponent}
-      feature={clickedFeature.properties} />
+        feature={clickedFeature.properties}
+        onSelectProject={this._loadFeature.bind(this, clickedFeature.properties.id)}
+      />
+    );
+  }
+
+  _renderProjectPanel() {
+    const { loadedFeature } = this.state;
+    
+    return loadedFeature && (
+      <ProjectPanel containerComponent={this.props.containerComponent}
+        project={loadedFeature} />
     );
   }
 
@@ -210,6 +233,8 @@ export default class App extends Component {
 
           {this._renderDetail()}
         </Sidebar>
+
+        {this._renderProjectPanel()}
       </div>
     );
   }
