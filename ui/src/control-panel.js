@@ -43,6 +43,15 @@ export default class ControlPanel extends PureComponent {
             onChange={this.props.onChange.bind(undefined, 'road')}
           />
         </div>
+        <div className="attribution">
+          <a href="https://www.mapbox.com/about/maps/">© Mapbox | </a>
+          <a href="http://www.openstreetmap.org/copyright">© OpenStreetMap | </a>
+          <a href="https://www.mapbox.com/map-feedback/" target="_blank"><strong>Improve this map</strong></a>
+        </div>
+        <div className="attribution">
+          <a href="https://github.com/vvondra/rsd-map">github.com/vvondra/rsd-map | </a>
+          <a href="https://github.com/vvondra/rsd-map/issues/new">nápady</a>
+        </div>
         
       </Container>
     );

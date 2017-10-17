@@ -102,3 +102,12 @@ button:hover {
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
 }
+
+.attribution {
+  font-size: 10px;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: #4264fb;
+}
