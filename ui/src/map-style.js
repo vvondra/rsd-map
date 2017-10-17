@@ -27,4 +27,15 @@ export const dataLayer = fromJS({
 }
 });
 
-export const defaultMapStyle = fromJS(MAP_STYLE);
+const defaultSource = fromJS({
+    type: 'geojson',
+    data: {
+        type: 'FeatureCollection',
+        features: []
+    }
+});
+
+const defaultStyle = fromJS(MAP_STYLE);
+
+export const defaultMapStyle = defaultStyle
+    .setIn(['sources', 'projects'], defaultSource);

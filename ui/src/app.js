@@ -6,7 +6,7 @@ import ControlPanel from './control-panel';
 import DetailPanel from './detail-panel';
 import Sidebar from './sidebar';
 
-import { defaultMapStyle, dataLayer } from './map-style.js';
+import { dataLayer, defaultMapStyle } from './map-style.js';
 import { stripHtml, truncate } from './utils';
 import { fromJS } from 'immutable';
 import { json as requestJson } from 'd3-request';
@@ -51,7 +51,11 @@ export default class App extends Component {
       }
     });
 
-    this._refresh();
+    requestJson('/api/plans', (error, response) => {
+      if (!error) {
+        this._loadLayer(response).then(this._refresh);
+      }
+    });
   }
 
   componentWillUnmount() {
@@ -82,12 +86,50 @@ export default class App extends Component {
   }
 
   _loadData = data => {
-    const mapStyle = defaultMapStyle
+    const mapStyle = this.state.mapStyle
       // Add geojson source to map
-      .setIn(['sources', 'projects'], fromJS({ type: 'geojson', data }))
-      // Add point layer to map
-      .set('layers', defaultMapStyle.get('layers').push(dataLayer));
+      .setIn(['sources', 'projects'], fromJS({ type: 'geojson', data }));
     this.setState({ data, mapStyle });
+  };
+
+  _loadLayer = data => {
+    const plannedRoutesDataLayer = fromJS({
+      "id": "planned_routes",
+      "type": "line",
+      "source": {
+        "type": "geojson",
+        "data": data
+      },
+      "layout": {
+        "line-join": "round",
+        "line-cap": "round"
+      },
+      "paint": {
+          "line-color": "#888",
+          "line-width": {
+            "base": 1.5,
+            "stops": [
+                [
+                    15,
+                    2
+                ],
+                [
+                    18,
+                    7
+                ]
+            ]
+        }
+      }
+    });
+
+    const mapStyle = this.state.mapStyle.set(
+      'layers',
+      this.state.mapStyle.get('layers')
+        .push(plannedRoutesDataLayer)
+        .push(dataLayer)
+      );
+    
+    return new Promise((resolve) => this.setState({ mapStyle }, resolve));
   };
 
   _updateSettings = (name, value) => {
@@ -110,6 +152,7 @@ export default class App extends Component {
   _onViewportChange = viewport => this.setState({ viewport });
 
   _onHover = event => {
+    if (!this.state.data) { return; }
     const { features, srcEvent: { offsetX, offsetY } } = event;
     const hoveredFeature = features && features.find(f => f.layer.id === 'data');
 
@@ -117,6 +160,7 @@ export default class App extends Component {
   };
 
   _onClick = event => {
+    if (!this.state.data) { return; }
     const { features, srcEvent: { offsetX, offsetY } } = event;
     const clickedFeature = features && features.find(f => f.layer.id === 'data');
 
