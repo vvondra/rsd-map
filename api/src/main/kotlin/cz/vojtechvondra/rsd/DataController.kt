@@ -12,11 +12,13 @@ class DataController(val provider: DataProvider) {
     fun data(
         @RequestParam("region", required = false) region: List<String>?,
         @RequestParam("poiType", required = false) poiType: String?,
-        @RequestParam("road", required = false) road: String?
+        @RequestParam("road", required = false) road: List<String>?,
+        @RequestParam("status", required = false) status: List<String>?
     ) = provider.toGeoJson(provider.findData(
         region ?: emptyList(),
         poiType,
-        road
+        road ?: emptyList(),
+        status ?: emptyList()
     ))
 
     @GetMapping("/api/roads")
@@ -30,5 +32,8 @@ class DataController(val provider: DataProvider) {
 
     @GetMapping("/api/projects/{id}")
     fun project(@PathVariable("id") id: String) = provider.getProject(id)
+
+    @GetMapping("/api/statuses")
+    fun statuses() = provider.findData().mapNotNull { t -> t.construction?.status }.distinct()
 
 }

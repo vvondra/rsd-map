@@ -24,6 +24,8 @@ export default class App extends Component {
     region: [],
     roads: [],
     road: [],
+    statuses: [],
+    status: [],
     data: null,
     hoveredFeature: null,
     clickedFeature: null,
@@ -49,9 +51,18 @@ export default class App extends Component {
       }
     });
 
+    requestJson('/api/statuses', (error, response) => {
+      if (!error) {
+        this.setState({
+          statuses: response,
+          status: response.filter(s => s != 'constructionStatus_operational')
+        });
+      }
+    });
+
     requestJson('/api/roads', (error, response) => {
       if (!error) {
-        this.setState({ roads: response.sort((a, b) => a.name > b.name) });
+        this.setState({ roads: response });
       }
     });
 
@@ -81,6 +92,7 @@ export default class App extends Component {
     let params = [];
     this.state.region.forEach((region) => params.push('region=' + region))
     this.state.road.forEach((road) => params.push('road=' + road))
+    this.state.status.forEach((status) => params.push('status=' + status))
 
     requestJson(url + params.join('&'), (error, response) => {
       if (!error) {
@@ -137,7 +149,7 @@ export default class App extends Component {
   };
 
   _updateSettings = (name, value) => {
-    if (name === 'region' || name === 'road') {
+    if (name === 'region' || name === 'road' || name === 'status') {
       if (value == '-') {
         value = [];
       } else {

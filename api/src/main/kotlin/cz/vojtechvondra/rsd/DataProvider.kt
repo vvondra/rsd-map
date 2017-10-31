@@ -29,13 +29,19 @@ class DataProvider {
     val plans: FeatureCollection = DataMapper.jackson
         .readValue(DataProvider::class.java.classLoader.getResourceAsStream("construction.json"))
 
-    fun findData(region: List<String>, poiType: String?, road: String?): List<Project> {
+    fun findData(
+        region: List<String> = emptyList(),
+        poiType: String? = null,
+        road: List<String> = emptyList(),
+        status: List<String> = emptyList()
+    ): List<Project> {
         return data.stream()
             .filter { t -> t.poiType == "construction" }
             .filter { t -> region.isEmpty() || t.regions.intersect(region).count() > 0 }
             .filter { t -> poiType == null || t.poiType == poiType }
-            .filter { t -> road == null || t.road._id == road }
+            .filter { t -> road.isEmpty() || road.contains(t.road._id) }
             .filter { t -> t.published }
+            .filter { t -> status.isEmpty() || status.contains(t.construction?.status) }
             .collect(toList())
     }
 
